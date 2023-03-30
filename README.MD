@@ -20,7 +20,7 @@
 
 ```bash
 # clone the project
-git clone https://github.com/liuzw-cyy/myBlog.git
+git clone https://github.com/Bunny0927/myBlog.git
 
 # enter the project directory
 cd vuepress-theme-vdoing

@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: liuzw's blog
+heroText: 瑶麦's blog
 tagline: 爱意永生不灭，浪漫至死不渝
 # actionText: 立刻进入 →
 actionLink: /web/

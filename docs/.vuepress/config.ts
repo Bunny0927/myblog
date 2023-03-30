@@ -15,7 +15,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: "liuzw's blog",
+      title: "chenyaoyao's blog",
       description: 'web前端技术博客,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,github等技术文章。',
     }
   },
@@ -63,10 +63,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
         ],
       },
-      {
-        text: 'liuzw的面试宝典',
-        link: '/pages/693628/',
-      },
+      // {
+      //   text: 'liuzw的面试宝典',
+      //   link: '/pages/693628/',
+      // },
       { text: '关于', link: '/about/' },
       {
         text: '收藏',
@@ -89,7 +89,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
-    repo: 'https://github.com/liuzw-cyy', // 导航栏右侧生成Github链接
+    repo: 'https://github.com/bunny0927', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
@@ -129,14 +129,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
-      name: 'liuzw', // 必需
-      link: 'https://github.com/liuzw-cyy', // 可选的
+      name: '瑶麦', // 必需
+      link: 'https://github.com/Bunny0927', // 可选的
     },
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
       avatar: '/img/logo.png',
-      name: 'liuzw',
+      name: '瑶麦',
       slogan: '一只前端小菜鸡',
     },
 
@@ -147,7 +147,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-youjian',
           title: '发邮件',
-          link: 'mailto:liuzw1999@163.com',
+          link: 'mailto:chenyaoyao0927@foxmail.com',
         },
         {
           iconClass: 'icon-github',
@@ -166,7 +166,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     footer: {
       createYear: 2021, // 博客创建年份
       copyrightInfo:
-        'liuzw | <a href="https://github.com/liuzw-cyy/myBlog/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
+        'chenyaoyao | <a href="https://github.com/liuzw-cyy/myBlog/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
