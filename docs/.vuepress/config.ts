@@ -88,7 +88,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-    logo: '/img/logo.png', // 导航栏logo
+    logo: '/img/logo.jpg', // 导航栏logo
     repo: 'https://github.com/bunny0927', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
@@ -106,7 +106,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     bodyBgImg: [
       // 'https://cdn.jsdelivr.net/gh/liuzw-cyy/images/img/wallpaper_3.png',
       // 'https://cdn.jsdelivr.net/gh/liuzw-cyy/images/img/wallpaper_2.png',
-      'https://cdn.jsdelivr.net/gh/liuzw-cyy/images/img/wallpaper_1.jpg'
+      // 'https://cdn.jsdelivr.net/gh/liuzw-cyy/images/img/wallpaper_1.jpg'
     ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时每隔15秒换一张。
     bodyBgImgOpacity: 0.9, // body背景图透明度，选值 0.1~ 1.0, 默认0.5
     // titleBadge: false, // 文章标题前的图标是否显示，默认true
@@ -135,7 +135,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: '/img/logo.png',
+      avatar: '/img/logo.jpg',
       name: '瑶麦',
       slogan: '一只前端小菜鸡',
     },
@@ -152,7 +152,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         {
           iconClass: 'icon-github',
           title: 'GitHub',
-          link: 'https://github.com/liuzw-cyy',
+          link: 'https://github.com/Bunny0927',
         },
         {
           iconClass: 'icon-erji',
@@ -166,14 +166,14 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     footer: {
       createYear: 2021, // 博客创建年份
       copyrightInfo:
-        'chenyaoyao | <a href="https://github.com/liuzw-cyy/myBlog/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
+        'chenyaoyao | <a href="https://github.com/Bunny0927/myBlog/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
     extendFrontmatter: {
       author: {
-        name: 'liuzw',
-        link: 'https://github.com/liuzw-cyy'
+        name: 'cyy',
+        link: 'https://github.com/Bunny0927'
       }
     },
 
@@ -283,8 +283,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           clientID: 'a6e1355287947096b88b',
           clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
           repo: 'blog-gitalk-comment', // GitHub 仓库
-          owner: 'xugaoyi', // GitHub仓库所有者
-          admin: ['xugaoyi'], // 对仓库有写权限的人
+          owner: 'Wendycyy', // GitHub仓库所有者
+          admin: ['Wendycyy'], // 对仓库有写权限的人
           // distractionFreeMode: true,
           pagerDirection: 'last', // 'first'正序 | 'last'倒序
           id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
