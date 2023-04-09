@@ -286,8 +286,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           clientID: '991ce79fe8d3c4efd80b',
           clientSecret: '013f1b353a7b4dece469d28c81351be24576b515',
           repo: 'myblog', // GitHub 仓库
-          owner: 'Wendycyy', // GitHub仓库所有者
-          admin: ['Wendycyy'], // 对仓库有写权限的人
+          owner: 'Bunny0927', // GitHub仓库所有者
+          admin: ['Bunny0927'], // 对仓库有写权限的人
           // distractionFreeMode: true,
           pagerDirection: 'last', // 'first'正序 | 'last'倒序
           id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
