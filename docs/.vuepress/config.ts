@@ -107,9 +107,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     bodyBgImg: [
       // 'https://cdn.jsdelivr.net/gh/liuzw-cyy/images/img/wallpaper_3.png',
       // 'https://cdn.jsdelivr.net/gh/liuzw-cyy/images/img/wallpaper_2.png',
-      'https://cdn.jsdelivr.net/gh/liuzw-cyy/images/img/wallpaper_1.jpg',
+      // 'https://cdn.jsdelivr.net/gh/liuzw-cyy/images/img/wallpaper_1.jpg',
       // 'https://cdn.jsdelivr.net/gh/Bunny0927/resource_jsdelivr@main/images/wallpaper_1.webp'
-      // '/img/wallpaper_1.webp'
+      '/img/wallpaper_1.webp'
     ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时每隔15秒换一张。
     bodyBgImgOpacity: 0.9, // body背景图透明度，选值 0.1~ 1.0, 默认0.5
     // titleBadge: false, // 文章标题前的图标是否显示，默认true
