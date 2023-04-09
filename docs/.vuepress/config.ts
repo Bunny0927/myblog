@@ -88,7 +88,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-    logo: '/img/logo.jpg', // 导航栏logo
+    logo: 'https://cdn.jsdelivr.net/gh/Bunny0927/resource_jsdelivr@main/images/avatar_1.jpg', // 导航栏logo
     repo: 'https://github.com/bunny0927', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
@@ -107,7 +107,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       // 'https://cdn.jsdelivr.net/gh/liuzw-cyy/images/img/wallpaper_3.png',
       // 'https://cdn.jsdelivr.net/gh/liuzw-cyy/images/img/wallpaper_2.png',
       // 'https://cdn.jsdelivr.net/gh/liuzw-cyy/images/img/wallpaper_1.jpg',
-      '/img/wallpaper_9.webp'
+      'https://cdn.jsdelivr.net/gh/Bunny0927/resource_jsdelivr@main/images/wallpaper_1.webp'
     ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时每隔15秒换一张。
     bodyBgImgOpacity: 0.9, // body背景图透明度，选值 0.1~ 1.0, 默认0.5
     // titleBadge: false, // 文章标题前的图标是否显示，默认true
