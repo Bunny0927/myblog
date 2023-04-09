@@ -283,9 +283,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         choosen: 'gitalk',
         options: {
-          clientID: 'a6e1355287947096b88b',
-          clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
-          repo: 'blog-gitalk-comment', // GitHub 仓库
+          clientID: '991ce79fe8d3c4efd80b',
+          clientSecret: '013f1b353a7b4dece469d28c81351be24576b515',
+          repo: 'myblog', // GitHub 仓库
           owner: 'Wendycyy', // GitHub仓库所有者
           admin: ['Wendycyy'], // 对仓库有写权限的人
           // distractionFreeMode: true,
