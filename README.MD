@@ -9,7 +9,7 @@
 </p>
 <h2 align="center">vuepress-theme-vdoing</h2>
 
-[博客效果](https://xugaoyi.com/)
+[博客效果](https://wendycyy.work/)
 
 ## 介绍
 本仓库是一个基于Vuepress工具的`知识管理工具`，主题为`vuepress-theme-vdoing`
