@@ -27,31 +27,32 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     nav: [
       { text: '首页', link: '/' },
       {
-        text: '学习笔记',
-        link: '/web/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
-        items: [
-          // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
-          {
-            text: '学习笔记',
-            items: [
-              { text: '《Git》', link: '/note/git/' },
-              { text: '《算法与编程》', link: '/note/code/' },
-              { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
-            ],
-          },
-        ],
-      },
-      {
-        text: '技术难点',
-        link: '/ui/',
+        text: '前端基础',
+        link: '/basic/',
         items: [
           { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
           { text: 'CSS', link: '/pages/5ad8f9/' },
-          { text: 'JS', link: '/pages/0b9d65/' }
+          { text: 'Javascript', link: '/pages/0b9d65/' }
         ],
       },
       {
-        text: '进阶',
+        text: '框架技术',
+        link: '/frame/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+        items: [
+          // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
+          // {
+          //   text: '框架技术',
+            // items: [
+              // { text: 'Vue', link: '/note/git/' },
+              // { text: 'React', link: '/note/code/' },
+              { text: 'Express', link: '/pages/204e17/' },
+            ],
+          // },
+        // ],
+      },
+
+      {
+        text: '其他技术',
         link: '/technology/',
         items: [
           { text: 'Nodejs', link: '/pages/a4d07e/' },
@@ -63,19 +64,26 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
         ],
       },
-      // {
-      //   text: '面试宝典',
-      //   link: '/pages/693628/',
-      // },
+      {
+        text: '学习笔记',
+        link: '/note/',
+        items: [
+          { text: '《算法与编程》笔记', link: '/pages/a4d07e/' },
+          { text: '《Git》学习笔记', link: '/pages/8292d8/' },
+        ],
+      },
+      {
+        text: '更多',
+        link: '/more/',
+        items: [
+          { text: '面试', link: '/pages/775b4b/' },
+          { text: '心情小记', link: '/pages/bcf7ef/' },
+        ]
+      },
       { text: '关于', link: '/about/' },
       {
         text: '收藏',
         link: '/pages/beb6c0bd8a66cea6/',
-        // items: [
-        //   { text: '网站', link: '/pages/beb6c0bd8a66cea6/' },
-        //   { text: '资源', link: '/pages/eee83a9211a70f9d/' },
-        //   { text: 'Vue资源', link: '/pages/12df8ace52d493f6/' },
-        // ],
       },
       {
         text: '索引',
@@ -88,9 +96,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-    // logo: 'https://cdn.jsdelivr.net/gh/Bunny0927/resource_jsdelivr@main/images/avatar_1.jpg', // 导航栏logo
-    logo: '/img/logo.jpg',
-    repo: 'https://github.com/bunny0927', // 导航栏右侧生成Github链接
+    logo: '/img/logo.jpg', // 导航栏logo
+    repo: 'Bunny0927/myblog', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
@@ -105,7 +112,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
     bodyBgImg: [
-      // 'https://cdn.jsdelivr.net/gh/Bunny0927/resource_jsdelivr@main/images/wallpaper_1.webp'
       '/img/wallpaper_9.webp'
     ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时每隔15秒换一张。
     bodyBgImgOpacity: 0.9, // body背景图透明度，选值 0.1~ 1.0, 默认0.5
