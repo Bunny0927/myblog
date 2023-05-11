@@ -11,14 +11,14 @@ bannerBg: auto   # auto:网格纹背景(有bodyBgImg时无背景)，默认 | non
 features: # 可选的
   - title: 前端基础
     details: JavaScript、HTML、CSS等前端基础
-    link: /ui/
+    link: /basic/
     imgUrl: /img/ui.png
-  - title: 框架技术
-    details: Vue、React等前端技术
-    link: /web/ # 可选
+  - title: 进阶技术
+    details: Vue、React框架等进阶技术
+    link: /frame/ # 可选
     imgUrl: /img/web.png # 可选
   - title: 其他技术
-    details: 前端进阶技术总结和文章
+    details: 技术文档、教程、技巧、总结等文章
     link: /technology/
     imgUrl: /img/other.png
 

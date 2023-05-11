@@ -36,12 +36,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       {
-        text: '框架技术',
+        text: '进阶技术',
         link: '/frame/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           // {
-          //   text: '框架技术',
+          //   text: '进阶技术',
             // items: [
               // { text: 'Vue', link: '/note/git/' },
               // { text: 'React', link: '/note/code/' },
