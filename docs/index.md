@@ -12,15 +12,15 @@ features: # 可选的
   - title: 前端基础
     details: JavaScript、HTML、CSS等前端基础
     link: /basic/
-    imgUrl: /img/dog1.png
+    imgUrl: /img/strawberry.png
   - title: 进阶技术
     details: Vue、React框架等进阶技术
     link: /frame/ # 可选
-    imgUrl: /img/dog2.png # 可选
+    imgUrl: /img/girl.png # 可选
   - title: 其他技术
     details: 技术文档、教程、技巧、总结等文章
     link: /technology/
-    imgUrl: /img/rabbit.png
+    imgUrl: /img/ice.png
 
 
 
