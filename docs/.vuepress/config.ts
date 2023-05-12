@@ -50,7 +50,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           // },
         // ],
       },
-
       {
         text: '其他技术',
         link: '/technology/',
@@ -68,7 +67,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '学习笔记',
         link: '/note/',
         items: [
-          { text: '《算法与编程》笔记', link: '/pages/a4d07e/' },
+          { text: '《算法与编程》笔记', link: '/pages/38c2a0/' },
           { text: '《Git》学习笔记', link: '/pages/8292d8/' },
         ],
       },
@@ -77,7 +76,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/more/',
         items: [
           { text: '面试', link: '/pages/775b4b/' },
-          { text: '心情小记', link: '/pages/bcf7ef/' },
+          { text: '心情小记', link: '/more/daily/' },
         ]
       },
       { text: '关于', link: '/about/' },
