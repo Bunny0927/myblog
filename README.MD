@@ -1,3 +1,10 @@
+<!--
+ * @Description: 
+ * @Author: yaoyao
+ * @Date: 2022-12-11 18:55:46
+ * @LastEditTime: 2023-07-13 20:08:12
+ * @LastEditors: yaoyao
+-->
 <p align="center"><a href="https://wendycyy.work/" target="_blank" rel="noopener noreferrer"><img width="180" src="https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png" alt="logo"></a></p>
 
 <!-- <p align="center">
@@ -21,9 +28,6 @@
 ```bash
 # clone the project
 git clone https://github.com/Bunny0927/myBlog.git
-
-# enter the project directory
-cd vuepress-theme-vdoing
 
 # install dependency
 npm install # or yarn install

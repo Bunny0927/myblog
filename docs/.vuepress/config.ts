@@ -43,7 +43,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           // {
           //   text: '进阶技术',
             // items: [
-              // { text: 'Vue', link: '/note/git/' },
+              { text: 'Vue', link: '/pages/255ea0/' },
               // { text: 'React', link: '/note/code/' },
               { text: 'Express', link: '/pages/204e17/' },
             ],
