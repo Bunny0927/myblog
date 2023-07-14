@@ -22,6 +22,7 @@
     "vuepress-plugin-comment": "^0.7.3",
     "vuepress-plugin-cursor-effects": "^1.1.2",
     "vuepress-plugin-demo-block": "^0.7.2",
+    "vuepress-plugin-demo-container": "^0.2.0",
     "vuepress-plugin-fulltext-search": "^2.2.1",
     "vuepress-plugin-one-click-copy": "^1.0.2",
     "vuepress-plugin-thirdparty-search": "^1.0.2",
